@@ -46,3 +46,14 @@ $ airswap rfq:get
 $ yarn build
 $ yarn start
 ```
+
+Configure desired port, private key, infura api, chainid, expiry, and protocol fee.
+
+MAKE SURE THAT PROTOCOL FEE IS THE SAME AS SWAPERC20.SOL CONTRACT - or it errors.
+
+Airswap protocols are untouched, use the stock one.
+Airswap CLI is untouched, use the stock one.
+
+Forward the http server using ngrok, tcp is also available.
+
+
